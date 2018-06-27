@@ -126,4 +126,4 @@ EXPOSE 80 8090
 #ENTRYPOINT ["/usr/sbin/apache2ctl", “-D”, “FOREGROUND”]
 #ENTRYPOINT ["/usr/sbin/service", “apache2”, “start”]
 
-CMD /usr/sbin/apache2ctl -D FOREGROUND
+#CMD /usr/sbin/apache2ctl -D FOREGROUND
